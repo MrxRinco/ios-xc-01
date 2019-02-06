@@ -14,6 +14,7 @@
 		E077D4A121EB914E00761BD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E077D49F21EB914E00761BD4 /* LaunchScreen.storyboard */; };
 		E077D4AC21EB914F00761BD4 /* Test_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E077D4AB21EB914F00761BD4 /* Test_01Tests.swift */; };
 		E077D4B721EB914F00761BD4 /* Test_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E077D4B621EB914F00761BD4 /* Test_01UITests.swift */; };
+		E0985A162209A40E0053E5FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0985A152209A40E0053E5FA /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E077D4B221EB914F00761BD4 /* Test 01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test 01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E077D4B621EB914F00761BD4 /* Test_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_01UITests.swift; sourceTree = "<group>"; };
 		E077D4B821EB914F00761BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0985A152209A40E0053E5FA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E077D49621EB914D00761BD4 /* AppDelegate.swift */,
 				E077D49821EB914D00761BD4 /* ViewController.swift */,
 				E077D49A21EB914D00761BD4 /* Main.storyboard */,
+				E0985A152209A40E0053E5FA /* TableViewController.swift */,
 				E077D49D21EB914E00761BD4 /* Assets.xcassets */,
 				E077D49F21EB914E00761BD4 /* LaunchScreen.storyboard */,
 				E077D4A221EB914E00761BD4 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E077D49921EB914D00761BD4 /* ViewController.swift in Sources */,
+				E0985A162209A40E0053E5FA /* TableViewController.swift in Sources */,
 				E077D49721EB914D00761BD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrxrinc.test01.Test-01";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxrinc.Test01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrxrinc.test01.Test-01";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrxrinc.Test01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
